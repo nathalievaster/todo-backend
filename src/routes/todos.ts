@@ -1,6 +1,5 @@
 import { Router } from "express";
-import type { Todo } from "../models/todo.js";
-import { randomUUID } from "crypto";
+import { Todo } from "../models/todo";import { randomUUID } from "crypto";
 
 const router = Router();
 
