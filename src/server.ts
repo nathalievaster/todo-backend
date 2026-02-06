@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import todoRoutes from "./routes/todos.js";
 
 const app = express();
 const PORT = 3000;
